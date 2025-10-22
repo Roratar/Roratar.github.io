@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hello Bearneo | 我的第一个博客</title>
+<meta name="title" content="Hello Bearneo" />
+<meta name="description" content="欢迎来到我的新博客！这个主题真的非常简洁。
+什么是 Markdown？
+Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
+标题语法
+
+# 号代表一级标题
+## 号代表二级标题
+### 号代表三级标题
+
+为什么选择 Hugo？
+Hugo 是一个用 Go 语言编写的静态网站生成器。
+
+速度快：它的构建速度非常惊人。
+简单：只需要写 Markdown 文件，不需要数据库。
+安全：生成的是纯静态文件，几乎没有安全漏洞。
+
+现在，让我们看看这个主题的目录功能是否生效了！" />
+<meta name="keywords" content="" />
+
+<link rel="canonical" href="https://renleixue.moe/posts/hello-bearneo/">
+
+
+<meta property="og:url" content="https://renleixue.moe/posts/hello-bearneo/">
+  <meta property="og:site_name" content="我的第一个博客">
+  <meta property="og:title" content="Hello Bearneo">
+  <meta property="og:description" content="欢迎来到我的新博客！这个主题真的非常简洁。
+什么是 Markdown？ Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
+标题语法 # 号代表一级标题 ## 号代表二级标题 ### 号代表三级标题 为什么选择 Hugo？ Hugo 是一个用 Go 语言编写的静态网站生成器。
+速度快：它的构建速度非常惊人。 简单：只需要写 Markdown 文件，不需要数据库。 安全：生成的是纯静态文件，几乎没有安全漏洞。 现在，让我们看看这个主题的目录功能是否生效了！">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-10-17T13:28:03+08:00">
+    <meta property="article:modified_time" content="2025-10-17T13:28:03+08:00">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Hello Bearneo">
+  <meta name="twitter:description" content="欢迎来到我的新博客！这个主题真的非常简洁。
+什么是 Markdown？ Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
+标题语法 # 号代表一级标题 ## 号代表二级标题 ### 号代表三级标题 为什么选择 Hugo？ Hugo 是一个用 Go 语言编写的静态网站生成器。
+速度快：它的构建速度非常惊人。 简单：只需要写 Markdown 文件，不需要数据库。 安全：生成的是纯静态文件，几乎没有安全漏洞。 现在，让我们看看这个主题的目录功能是否生效了！">
+
+
+
+
+  <meta itemprop="name" content="Hello Bearneo">
+  <meta itemprop="description" content="欢迎来到我的新博客！这个主题真的非常简洁。
+什么是 Markdown？ Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
+标题语法 # 号代表一级标题 ## 号代表二级标题 ### 号代表三级标题 为什么选择 Hugo？ Hugo 是一个用 Go 语言编写的静态网站生成器。
+速度快：它的构建速度非常惊人。 简单：只需要写 Markdown 文件，不需要数据库。 安全：生成的是纯静态文件，几乎没有安全漏洞。 现在，让我们看看这个主题的目录功能是否生效了！">
+  <meta itemprop="datePublished" content="2025-10-17T13:28:03+08:00">
+  <meta itemprop="dateModified" content="2025-10-17T13:28:03+08:00">
+  <meta itemprop="wordCount" content="24">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+   
+  :root {
+    --width-max: 720px;
+    --font-primary: Verdana, sans-serif;
+    --font-secondary: monospace;
+    --font-size-primary: 1em;
+    --font-size-secondary: 0.8em;
+    --body-bg-color: #fcfcfc;
+    --bold-text-color: #222;
+    --body-text-color: #444;
+    --link-color: #3273dc;
+    --link-visited-color: #8b6fcb;
+    --table-border-color: #f2f2f2;
+    --table-th-bg-color: #f2f2f2;
+    --img-border-color: #f2f2f2;
+    --code-bg-color: #f2f2f2;
+    --code-text-color: #222;
+    --blockquote-border-color: #666;
+    --blockquote-text-color: #666;
+    --upvoted-color: #FA8072;
+    --caption-text-color: #666;
+    --toc-text-color: #e5e5e5;
+    --toc-hover-color: #655e5e;
+  }
+
+  @media (prefers-color-scheme: dark) {
+     
+    :root {
+      --body-bg-color: #1c1c1c;
+      --bold-text-color: #eee;
+      --body-text-color: #ddd;
+      --link-color: #8cc2dd;
+      --link-visited-color: #c3b1ee;
+      --table-border-color: #999;
+      --table-th-bg-color: #999;
+      --img-border-color: #999;
+      --code-bg-color: #555;
+      --code-text-color: #ddd;
+      --blockquote-border-color: #ccc;
+      --blockquote-text-color: #ccc;
+      --caption-text-color: #aaa;
+      --toc-text-color: #373737;
+      --toc-hover-color: #CAC3C3;
+    }
+  }
+
+  body {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-primary);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width-max);
+    text-align: left;
+    background-color: var(--body-bg-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--body-text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: var(--bold-text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 16px 0;
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--table-border-color);
+    border-radius: 4px;
+  }
+
+  th,
+  td {
+    border: 1px solid var(--table-border-color);
+    padding: 4px;
+  }
+
+  th {
+    background-color: var(--table-th-bg-color);
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid var(--img-border-color);
+    border-radius: 4px;
+    content-visibility: auto;
+    loading: lazy;
+  }
+
+  img[src*="#minipic"] {
+    max-width: 50%;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .image-caption figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8em;
+    margin-top: 0.6em;
+    color: var(--caption-text-color);
+  }
+
+  .image-caption {
+    margin: auto;
+  }
+
+  i {
+    font-style: normal;
+  }
+
+  time {
+    font-family: var(--font-secondary);
+    font-size: 15px;
+  }
+
+  code {
+    font-family: var(--font-secondary);
+    background-color: var(--code-bg-color);
+    color: var(--code-text-color);
+    padding: 2px;
+    border-radius: 4px;
+  }
+
+  pre code {
+    display: block;
+    padding: 16px;
+    white-space: pre-wrap;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    border-radius: 4px;
+  }
+
+  div.highlight code {
+    background-color: var(--code-bg-color);
+    color: var(--code-text-color);
+  }
+
+  blockquote {
+    border-left: 2px solid var(--blockquote-border-color);
+    color: var(--blockquote-text-color);
+    margin: 0;
+    padding-left: 16px;
+    font-style: normal;
+  }
+
+  blockquote p {
+    margin: 0;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+    font-size: var(--font-size-secondary);
+  }
+
+  ul li:has(input) {
+    list-style-type: none;
+    margin-left: -25.5px;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li span.grouped {
+    flex: 0 0 80px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--link-visited-color);
+  }
+
+   
+    div.toc {
+        position: fixed;  
+        top: 50%;  
+        left: calc((100vw + var(--width-max)) / 2);  
+        transform: translateY(-50%);  
+        width: calc((90vw - var(--width-max)) / 2);  
+        max-height: 80vh;  
+        overflow-y: auto;  
+        border: none;  
+        padding: 0;  
+        margin: 0;  
+        z-index: 99;  
+
+         
+        &::-webkit-scrollbar {  
+            display: none;  
+        }
+
+        -ms-overflow-style: none;  
+        scrollbar-width: none;  
+    }
+
+    .toc-nav {  
+        padding: 1.5rem;  
+    }
+
+    .toc-nav ul {  
+        list-style: none;  
+        padding: 0;  
+        margin: 0;  
+    }
+
+    .toc-nav li {  
+        margin: 8px 0;  
+    }
+
+    .toc-nav a {  
+        display: block;  
+        text-decoration: none;  
+        color: transparent;  
+        padding: 0 12px;  
+        transition: all 0.2s ease;  
+        font-size: 0.9rem;  
+        line-height: 1.4;  
+        text-align: left;  
+        white-space: nowrap;  
+        overflow: hidden;  
+        text-overflow: ellipsis;  
+        max-width: 100%;  
+    }
+    
+    .toc-nav:hover a {
+        color: var(--toc-text-color);  
+    }
+
+    .toc-nav a::before {  
+        content: '';  
+        display: inline-block;  
+        width: 16px;  
+        height: 4px;  
+        background-color: var(--toc-text-color);  
+        border-radius: 16px;  
+        margin-right: 12px;  
+        vertical-align: middle;  
+    }
+
+    .toc-nav ul ul a::before {  
+        width: 12px;  
+        margin-right: 16px;  
+    }
+
+    .toc-nav ul ul ul a::before {  
+        width: 8px;  
+        margin-right: 20px;  
+    }
+
+    .toc-nav a.active,  
+    .toc-nav a:hover {
+        text-decoration: none;  
+        color: var(--toc-hover-color);  
+    }
+
+    .toc-nav a.active::before,  
+    .toc-nav a:hover::before {
+        background-color: var(--toc-hover-color);  
+    }
+
+   
+  button.upvote-btn {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--body-text-color);
+  }
+
+  button.upvoted {
+    color: var(--upvoted-color);
+  }
+
+  span.upvote-count {
+    margin-top: -4px;
+    font-size: smaller;
+  }
+
+  @media (max-width: 800px) {
+    img[src*="#minipic"] {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    div.toc {
+      display: none;
+    }
+  }
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h1>我的第一个博客</h1>
+</a>
+<nav><a href="/">Home</a>
+
+<a href="/bear/">Bear</a>
+
+<a href="/hugo/">Hugo</a>
+
+
+<a href="/blog/">Blog</a>
+
+</nav>
+</header>
+  <main>
+ 
+
+<content> <p>欢迎来到我的新博客！这个主题真的非常简洁。</p>
+<h2 id="什么是-markdown">什么是 Markdown？</h2>
+<p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。</p>
+<h3 id="标题语法">标题语法</h3>
+<ul>
+<li><code>#</code> 号代表一级标题</li>
+<li><code>##</code> 号代表二级标题</li>
+<li><code>###</code> 号代表三级标题</li>
+</ul>
+<h2 id="为什么选择-hugo">为什么选择 Hugo？</h2>
+<p>Hugo 是一个用 Go 语言编写的静态网站生成器。</p>
+<ol>
+<li><strong>速度快</strong>：它的构建速度非常惊人。</li>
+<li><strong>简单</strong>：只需要写 Markdown 文件，不需要数据库。</li>
+<li><strong>安全</strong>：生成的是纯静态文件，几乎没有安全漏洞。</li>
+</ol>
+<p>现在，让我们看看这个主题的目录功能是否生效了！</p>
+ </content>
+
+<p>
+  
+</p>
+
+
+
+
+
+
+ 
+<div class="toc">
+
+
+<nav class="toc-nav">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#什么是-markdown">什么是 Markdown？</a>
+      <ul>
+        <li><a href="#标题语法">标题语法</a></li>
+      </ul>
+    </li>
+    <li><a href="#为什么选择-hugo">为什么选择 Hugo？</a></li>
+  </ul>
+</nav>
+</nav>
+
+<script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+        const tocLinks = document.querySelectorAll('.toc-nav a');
+        const headings = Array.from(tocLinks).map(link => {
+            const id = link.getAttribute('href').replace('#', '');
+            return document.getElementById(id);
+        }).filter(h => h);
+
+        
+        tocLinks.forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').replace('#', '');
+                const target = document.getElementById(targetId);
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+
+                    
+                    tocLinks.forEach(l => l.classList.remove('active'));
+                    this.classList.add('active');
+                }
+            });
+        });
+
+        
+        function updateActiveLink() {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            const windowHeight = window.innerHeight;
+
+            for (let i = headings.length - 1; i >= 0; i--) {
+                const heading = headings[i];
+                const rect = heading.getBoundingClientRect();
+
+                if (rect.top <= 100) {
+                    
+                    tocLinks.forEach(link => link.classList.remove('active'));
+                    
+                    
+                    const activeLink = document.querySelector(`.toc-nav a[href="#${heading.id}"]`);
+                    if (activeLink) {
+                        activeLink.classList.add('active');
+                        
+                        
+                        let currentLi = activeLink.closest('li');
+                        while (currentLi) {
+                            const parentLi = currentLi.parentElement.closest('li');
+                            if (parentLi) {
+                                const parentLink = parentLi.querySelector('a');
+                                if (parentLink) {
+                                    parentLink.classList.add('active');
+                                }
+                                currentLi = parentLi;
+                            } else {
+                                break;
+                            }
+                        }
+                    }
+                    break;
+                }
+            }
+        }
+
+        
+        let ticking = false;
+        function throttleScroll() {
+            if (!ticking) {
+                requestAnimationFrame(function () {
+                    updateActiveLink();
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        }
+
+        window.addEventListener('scroll', throttleScroll);
+
+        
+        updateActiveLink();
+    });
+</script>
+
+</div>
+
+
+
+  </main>
+  <footer>
+
+
+Subscribe via <a href="/index.xml">RSS</a> or just <a href="mailto:your.email@example.com">say hello</a>.
+<br />
+
+
+
+
+
+Say hello via <a href="mailto:your.email@example.com">email</a>.
+<br />
+
+
+
+
+Made with
+<a href="https://github.com/rokcso/hugo-bearneo/">Hugo Bear Neo</a>.
+<br />
+
+
+
+
+
+
+
+🗺️ <a href="/sitemap.xml">Sitemap</a>.
+
+</footer>
+
+    
+
+
+</body>
+
+</html>

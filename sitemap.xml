@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://renleixue.moe/posts/hello-bearneo/</loc>
+    <lastmod>2025-10-17T13:28:03+08:00</lastmod>
+  </url><url>
+    <loc>https://renleixue.moe/</loc>
+    <lastmod>2025-10-17T13:28:03+08:00</lastmod>
+  </url><url>
+    <loc>https://renleixue.moe/posts/</loc>
+    <lastmod>2025-10-17T13:28:03+08:00</lastmod>
+  </url><url>
+    <loc>https://renleixue.moe/blog/</loc>
+    <lastmod>2020-01-03T08:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://renleixue.moe/tags/markdown/</loc>
+    <lastmod>2020-01-03T08:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://renleixue.moe/blog/markdown-syntax/</loc>
+    <lastmod>2020-01-03T08:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://renleixue.moe/tags/syntax/</loc>
+    <lastmod>2020-01-03T08:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://renleixue.moe/tags/</loc>
+    <lastmod>2020-01-03T08:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://renleixue.moe/bear/</loc>
+  </url><url>
+    <loc>https://renleixue.moe/categories/</loc>
+  </url><url>
+    <loc>https://renleixue.moe/hugo/</loc>
+  </url>
+</urlset>
