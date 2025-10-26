@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 门槛们的田野</title>
-    <link>https://renleixue.moe/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on 门槛们的田野</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
@@ -17,12 +17,12 @@
     <lastBuildDate>Fri, 17 Oct 2025 13:28:03 +0800</lastBuildDate>
     
     
-    <atom:link href="https://renleixue.moe/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello Bearneo</title>
-      <link>https://renleixue.moe/posts/hello-bearneo/</link>
+      <link>http://localhost:1313/posts/hello-bearneo/</link>
       <pubDate>Fri, 17 Oct 2025 13:28:03 +0800</pubDate><author>your.email@example.com (你的名字)</author>
-      <guid>https://renleixue.moe/posts/hello-bearneo/</guid>
+      <guid>http://localhost:1313/posts/hello-bearneo/</guid>
       <description>&lt;p&gt;欢迎来到我的新博客！这个主题真的非常简洁。&lt;/p&gt;&#xA;&lt;h2 id=&#34;什么是-markdown&#34;&gt;什么是 Markdown？&lt;/h2&gt;&#xA;&lt;p&gt;Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。&lt;/p&gt;&#xA;&lt;h3 id=&#34;标题语法&#34;&gt;标题语法&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;#&lt;/code&gt; 号代表一级标题&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;##&lt;/code&gt; 号代表二级标题&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;###&lt;/code&gt; 号代表三级标题&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;为什么选择-hugo&#34;&gt;为什么选择 Hugo？&lt;/h2&gt;&#xA;&lt;p&gt;Hugo 是一个用 Go 语言编写的静态网站生成器。&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;速度快&lt;/strong&gt;：它的构建速度非常惊人。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;简单&lt;/strong&gt;：只需要写 Markdown 文件，不需要数据库。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;安全&lt;/strong&gt;：生成的是纯静态文件，几乎没有安全漏洞。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;现在，让我们看看这个主题的目录功能是否生效了！&lt;/p&gt;&#xA;</description>
     </item>
   </channel>
